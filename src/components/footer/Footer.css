@@ -1,0 +1,24 @@
+.footer{
+    margin: 100px auto 0;
+    width: 85%;
+    border-top: 1px solid #EAECF0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.footer img{
+    size: 10px;
+}
+
+.footer p{
+    color: #667085;
+}
+
+@media screen and (max-width: 450px) {
+    .footer{
+        width: 95%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
