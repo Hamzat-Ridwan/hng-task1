@@ -1,0 +1,10 @@
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.socials img{
+    margin: 0 10px;
+}
