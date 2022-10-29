@@ -31,4 +31,8 @@
     .links a{
         width: 95%;
     }
+
+    .links a .subtext{
+        font-size: 9px;
+    }
 }
