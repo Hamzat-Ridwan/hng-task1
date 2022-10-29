@@ -11,7 +11,7 @@ const Profile = () => {
             <img id='profile__img' src={profile} alt='profile' className='image' />
         </div>
         <p id='twitter'>Ridwan Hamzat</p>
-        <p id='slack'>Ridwan Hamzat</p>
+        <p id='slack'>RidwanHamzat</p>
         <img src={DesktopShare} alt="share" className='desktop-share'/>
         <img src={MobileShare} alt="share" className='mobile-share'/>
     </div>
