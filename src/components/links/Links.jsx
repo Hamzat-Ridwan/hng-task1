@@ -9,13 +9,13 @@ const links = [
     {title: 'Background Check For Coders', subtext: '(Your best place for doing background checks on coders)', url: 'https://background.zuri.team', id: 'pitch'},
     {title: 'Design Books', subtext: '(Get this free design book by Zuri)', url: 'https://books.zuri.team/design-rules', id: 'book__design'},
 ]
-
+ 
 const Links = () => {
   return (
     <div className='links'>
         {
             links.map((link, index)=>(
-                <a href={link.url} key={index} id={link.id} target='_blank'>
+                <a href={link.url} key={index} id={link.id} title={link.subtext} target='_blank'>
                     <div className='link-container'>
                         {link.title}
                         {link.subtext? 
