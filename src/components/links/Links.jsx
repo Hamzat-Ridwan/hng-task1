@@ -2,7 +2,7 @@ import React from 'react'
 import './Links.css'
 
 const links = [
-    {title: 'Twitter', url: 'https://www.twitter.com', id: ''},
+    {title: 'Twitter', url: 'https://www.twitter.com/Hamza_rid1', id: ''},
     {title: 'Zuri Team', url: 'https://training.zuri.team/', id: 'btn__zuri'},
     {title: 'Zuri Books', url: 'http://books.zuri.team', id: 'books'},
     {title: 'Python Books', url: 'https://books.zuri.team/python-for-beginners?ref_id=Ridwan Hamzat', id: 'book__python'},

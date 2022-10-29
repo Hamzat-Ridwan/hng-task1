@@ -1,6 +1,5 @@
 import React from 'react'
-import {FaUser} from 'react-icons/fa'
-import profile from '../../assets/Profile.png'
+import profile from '../../assets/profile.jpg'
 import DesktopShare from '../../assets/share.svg'
 import MobileShare from '../../assets/mobile-share.svg'
 import './Profile.css'

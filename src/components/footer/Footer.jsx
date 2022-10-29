@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div>
-            <img src={ZuriLogo} alt='zuri' />
+            <img src={ZuriLogo} alt='zuri' className='zuri'/>
         </div>
         <p>HNG Internship 9 Frontend Task</p>
         <div>
-            <img src={IngressiveLogo} alt='ingreesive' />
+            <img src={IngressiveLogo} alt='ingressive' className='ingressive' />
         </div>
     </div>
   )

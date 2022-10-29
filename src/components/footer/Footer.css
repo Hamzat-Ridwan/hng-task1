@@ -5,10 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
-}
-.footer img{
-    size: 10px;
+    padding: 13px 0;
 }
  
 .footer p{
@@ -20,5 +17,17 @@
         width: 95%;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .footer img.zuri{
+        width: 38vw; height: auto;
+    }
+
+    .footer img.ingressive{
+        width: 28vw; height: auto;
+    }
+
+    .footer p{
+        font-size: 14px;
     }
 }
