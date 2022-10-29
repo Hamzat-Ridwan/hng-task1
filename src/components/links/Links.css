@@ -19,6 +19,7 @@
 
 .link-container .subtext{
     font-size: 12px;
+    display: none;
 }
 
 .links a{
