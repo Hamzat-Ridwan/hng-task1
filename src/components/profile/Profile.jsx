@@ -9,7 +9,7 @@ const Profile = () => {
         <div className='image-container'>
             <img id='profile__img' src={profile} alt='profile' className='image' />
         </div>
-        <p>Ridwan Hamzat</p>
+        <p id='twitter'>Ridwan Hamzat</p>
     </div>
   )
 }
