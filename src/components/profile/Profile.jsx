@@ -10,6 +10,7 @@ const Profile = () => {
             <img id='profile__img' src={profile} alt='profile' className='image' />
         </div>
         <p id='twitter'>Ridwan Hamzat</p>
+        <p id='slack'>Ridwan Hamzat</p>
     </div>
   )
 }
