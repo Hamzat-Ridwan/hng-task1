@@ -1,9 +1,9 @@
 import React from 'react'
-import profile from '../../assets/profile.jpg'
+import profile from '../../assets/profile.png'
 import DesktopShare from '../../assets/share.svg'
 import MobileShare from '../../assets/mobile-share.svg'
 import './Profile.css'
-
+   
 const Profile = () => {
   return (
     <div className='profile'>
