@@ -18,6 +18,10 @@ const Links = () => {
                 <a href={link.url} key={index} id={link.id}>
                     <div className='link-container'>
                         {link.title}
+                        {link.subtext? 
+                        <div className='subtext'>{link.subtext}</div>:
+                        ''
+                        }
                     </div>
                 </a>
             ))
