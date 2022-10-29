@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 75px;
+    padding-top: 75px;
+    position: relative;
 }
 
 .image{
@@ -18,4 +19,26 @@
 
 #slack{
     display: none;
+}
+
+.desktop-share{
+    position: absolute;
+    top: 62px;
+    right: 20%
+}
+
+.mobile-share{
+    display: none;
+    position: absolute;
+    top: 62px;
+    right: 2.5%
+}
+
+@media screen and (max-width: 450px) {
+    .mobile-share{
+        display: inline-block;
+    }
+    .desktop-share{
+        display: none;
+    }
 }
