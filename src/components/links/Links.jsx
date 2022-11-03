@@ -8,6 +8,7 @@ const links = [
     {title: 'Python Books', subtext: '(This is where you will get the best python books)', url: 'https://books.zuri.team/python-for-beginners?ref_id=RidwanHamzat', id: 'book__python'},
     {title: 'Background Check For Coders', subtext: '(Your best place for doing background checks on coders)', url: 'https://background.zuri.team', id: 'pitch'},
     {title: 'Design Books', subtext: '(Get this free design book by Zuri)', url: 'https://books.zuri.team/design-rules', id: 'book__design'},
+    {title: 'Contact Me', subtext: '(Contact)', url: '/contact', id: 'book__design'},
 ]
  
 const Links = () => {
