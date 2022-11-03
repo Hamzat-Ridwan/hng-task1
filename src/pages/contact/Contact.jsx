@@ -11,27 +11,28 @@ const Contact = () => {
         <div className='input-fields'>
             <div className='names'>
                 <div>
-                    <label for='first_name'>First name</label>
+                    <label htmlFor='first_name'>First name</label>
                     <input id='first_name' type='text' placeholder='Enter your first name' />
                 </div>
                 <div>
-                    <label for='last_name'>Last name</label>
+                    <label htmlFor='last_name'>Last name</label>
                     <input id='last_name' type='text' placeholder='Enter your last name' />
                 </div>
             </div>
             <div>
-                <label for='email'>Email</label>
+                <label htmlFor='email'>Email</label>
                 <input id='email' type='email' placeholder='yourname@email.com'/>
             </div>
             <div>
-                <label for='message'>Message</label>
+                <label htmlFor='message'>Message</label>
                 <textarea placeholder="Send me a message and I'll reply you as soon as possible..."/>
             </div>
         </div>
-        <div>
+        <div className='agreement'>
             <input type='checkbox' className='checkbox'/>
-            <span>You agree to providing your data to RidwanHamzat who may contact you.</span>
+            <p>You agree to providing your data to RidwanHamzat who may contact you.</p>
         </div>
+        <button className='btn__submit'>Send message</button>
     </div>
     <Footer />
     </>
