@@ -1,0 +1,28 @@
+.contact-page{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-page label{
+    display: block;
+}
+
+.contact-page .input-fields .names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-page .names div{
+    width: 45%;
+}
+
+.contact-page .input-fields input, textarea{
+    border: 1px solid #D0D5DD;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.contact-page input.checkbox{
+    border: 1px solid #D0D5DD;
+}

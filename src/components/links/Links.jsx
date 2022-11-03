@@ -16,7 +16,7 @@ const Links = () => {
     <div className='links'>
         {
             links.map((link, index)=>(
-                <a href={link.url} key={index} id={link.id} title={link.subtext} target='_blank'>
+                <a href={link.url} key={index} id={link.id} title={link.subtext} >
                     <div className='link-container'>
                         {link.title}
                         {link.subtext? 
