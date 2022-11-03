@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Links.css'
 
 const links = [
@@ -8,7 +9,6 @@ const links = [
     {title: 'Python Books', subtext: '(This is where you will get the best python books)', url: 'https://books.zuri.team/python-for-beginners?ref_id=RidwanHamzat', id: 'book__python'},
     {title: 'Background Check For Coders', subtext: '(Your best place for doing background checks on coders)', url: 'https://background.zuri.team', id: 'pitch'},
     {title: 'Design Books', subtext: '(Get this free design book by Zuri)', url: 'https://books.zuri.team/design-rules', id: 'book__design'},
-    {title: 'Contact Me', subtext: '(Contact)', url: '/contact', id: 'book__design'},
 ]
  
 const Links = () => {
@@ -16,7 +16,7 @@ const Links = () => {
     <div className='links'>
         {
             links.map((link, index)=>(
-                <a href={link.url} key={index} id={link.id} title={link.subtext} >
+                <a to={link.url} key={index} id={link.id} title={link.subtext} >
                     <div className='link-container'>
                         {link.title}
                         {link.subtext? 
@@ -27,6 +27,9 @@ const Links = () => {
                 </a>
             ))
         }
+        <Link to='/contact' id='book__design'>
+            <div className='link-container'>Contact Me</div>
+        </Link>
     </div>
   )
 }
