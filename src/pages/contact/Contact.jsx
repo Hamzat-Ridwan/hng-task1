@@ -4,11 +4,13 @@ import validate from '../../form-utils/validateInfo'
 import Footer from '../../components/footer/Footer'
 import './Contact.css'
 
+const name = 'Ridwan Hamzat'
+
 const Contact = () => {
     const {values, handleChange, handleSubmit, errors} = useForm(validate)
   return (
     <>
-    <form className='contact-page' onSubmit={handleSubmit}>
+    <form className='contact-page' onSubmit={handleSubmit }>
         <h1>Contact Me</h1>
         <p>Hi there, contact me to ask about anything you have in mind.</p>
         <div className='input-fields'>
@@ -57,7 +59,7 @@ const Contact = () => {
         </div>
         <div className='agreement'>
             <input type='checkbox' className='checkbox'/>
-            <p>You agree to providing your data to RidwanHamzat who may contact you.</p>
+            <p>You agree to providing your data to {name} who may contact you.</p>
         </div>
         <button type='submit' id='btn__submit'>Send message</button>
     </form>
