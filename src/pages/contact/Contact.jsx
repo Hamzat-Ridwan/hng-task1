@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
             <div>
                 <label htmlFor='email'>Email</label>
-                <input id='email' type='text' placeholder='yourname@email.com'
+                <input id='email' type='email' placeholder='yourname@email.com'
                 className={`${errors.email ? 'error': ''}`}
                 name='email'
                 value={values.email} 
@@ -49,6 +49,7 @@ const Contact = () => {
             <div>
                 <label htmlFor='message'>Message</label>
                 <textarea placeholder="Send me a message and I'll reply you as soon as possible..."
+                id='message'
                 className={`${errors.message ? 'error': ''}`}
                 name='message'
                 value={values.message} 
@@ -58,7 +59,7 @@ const Contact = () => {
             </div>
         </div>
         <div className='agreement'>
-            <input type='checkbox' className='checkbox'/>
+            <input type='checkbox' className='checkbox' />
             <p>You agree to providing your data to {name} who may contact you.</p>
         </div>
         <button type='submit' id='btn__submit'>Send message</button>

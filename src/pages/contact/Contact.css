@@ -69,9 +69,9 @@
     margin-top: 5px;
 }
 
-.contact-page input.checkbox{
-    border: 1px solid #D0D5DD;
-    border: 1px solid red;
+.agreement input {
+    position: absolute;
+    opacity: 0;
 }
 
 .contact-page button{
