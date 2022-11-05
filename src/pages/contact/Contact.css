@@ -34,10 +34,12 @@
 
 .contact-page .input-fields input.error{
     border: 1px solid #F89687;
+    box-shadow: 0 0 10px rgba(248, 150, 135, 1);
 }
 
-.contact-page .input-fields input:focus{
-    border: 1px solid #84CAFF
+.contact-page .input-fields input:focus-visible{
+    outline: 1px solid #84CAFF;
+    box-shadow: 0 0 10px #84CAFF;
 }
 
 .contact-page .input-fields textarea{
@@ -46,7 +48,15 @@
 }
 
 .contact-page .input-fields textarea.error{
-    border: 1px solid #F89687;
+    /* border: 1px solid #F89687; */
+    border: 1px solid rgba(248, 150, 135, 1);
+    box-shadow: 0 0 10px rgba(248, 150, 135, 1);
+}
+
+.contact-page .input-fields textarea:focus-visible{
+    outline: 1px solid #84CAFF;
+    box-shadow: 0 0 10px #84CAFF;
+    border: 1px solid rgba(248, 150, 135, 1);
 }
 
 .contact-page .input-fields p{
