@@ -32,9 +32,26 @@
     height: 45px;
 }
 
+.contact-page .input-fields input.error{
+    border: 1px solid #F89687;
+}
+
+.contact-page .input-fields input:focus{
+    border: 1px solid #84CAFF
+}
+
 .contact-page .input-fields textarea{
     resize: none;
     height: 150px;
+}
+
+.contact-page .input-fields textarea.error{
+    border: 1px solid #F89687;
+}
+
+.contact-page .input-fields p{
+    color: #F89687;
+    margin-top: 5px;
 }
 
 .contact-page input.checkbox{
@@ -68,6 +85,7 @@
 @media screen and (max-width: 450px) {
     .contact-page{
         width: 92%;
+        padding-top: 50px;
     }
     .contact-page .input-fields .names{
         flex-direction: column;
