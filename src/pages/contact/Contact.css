@@ -89,7 +89,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    outline: 1px solid blue;
+    outline: 1px solid #D0D5DD;
 }
 
 .agreement input::after{
@@ -104,6 +104,7 @@
 
 .agreement input:checked{
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #84CAFF;
+    outline: 1px solid blue;
 }
 
 .agreement input:checked::after{
