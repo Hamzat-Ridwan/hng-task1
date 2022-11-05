@@ -27,7 +27,7 @@ const Links = () => {
                 </a>
             ))
         }
-        <Link to='/contact' id='book__design'>
+        <Link to='/contact' id='contact'>
             <div className='link-container'>Contact Me</div>
         </Link>
     </div>
