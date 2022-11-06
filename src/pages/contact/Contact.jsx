@@ -59,8 +59,8 @@ const Contact = () => {
             </div>
         </div>
         <div className='agreement'>
-            <input type='checkbox' className='checkbox' />
-            <p>You agree to providing your data to {name} who may contact you.</p>
+            <input id='checkbox' type='checkbox' className='checkbox' />
+            <label htmFor='checkbox'>You agree to providing your data to {name} who may contact you.</label>
         </div>
         <button type='submit' id='btn__submit'>Send message</button>
     </form>
